@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomType">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROOMS"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:textSize="24sp"
+                />
+            <ImageView
+                android:id="@+id/oneSeater"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/roomsvg"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/heading"
+                />
+            <TextView
+                android:id="@+id/typRoom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Single Room"
+                android:layout_below="@id/oneSeater"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/roomDesp1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Description of Room"
+                android:layout_below="@id/typRoom1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                />
+            <ImageView
+                android:id="@+id/twoSeater"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/roomsvg"
+                android:layout_below="@id/roomDesp1"
+                />
+            <TextView
+                android:id="@+id/typRoom2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Double Room"
+                android:layout_below="@id/twoSeater"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/roomDesp2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Description of Room"
+                android:layout_below="@id/typRoom2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                />
+            <ImageView
+                android:id="@+id/threeSeater"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/roomsvg"
+                android:layout_below="@id/roomDesp2"
+                />
+            <TextView
+                android:id="@+id/typRoom3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Triple Room"
+                android:layout_below="@id/threeSeater"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/roomDesp3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Description of Room"
+                android:layout_below="@id/typRoom3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                />
+            <ImageView
+                android:id="@+id/fourSeater"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/roomsvg"
+                android:layout_below="@id/roomDesp3"
+                />
+            <TextView
+                android:id="@+id/typRoom4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Multi Room"
+                android:layout_below="@id/fourSeater"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/roomDesp4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Description of Room"
+                android:layout_below="@id/typRoom4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

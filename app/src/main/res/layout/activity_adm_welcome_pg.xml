@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdmWelcomePg">
+
+
+    <ImageButton
+        android:id="@+id/register"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:src="@drawable/register"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="80dp"
+        />
+    <TextView
+        android:id="@+id/rooms_text"
+        android:text="@string/register_student"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/register"
+        app:layout_constraintLeft_toLeftOf="@id/register"
+        app:layout_constraintRight_toRightOf="@id/register"
+        android:layout_marginTop="12dp"
+        />
+
+    <ImageButton
+        android:id="@+id/complaints"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:src="@drawable/complain"
+        app:layout_constraintTop_toBottomOf="@id/register"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/complaint_text"
+        android:text="@string/student_s_complaint"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/complaints"
+        app:layout_constraintLeft_toLeftOf="@id/complaints"
+        app:layout_constraintRight_toRightOf="@id/complaints"
+        android:layout_marginTop="12dp"
+        />
+
+    <ImageButton
+        android:id="@+id/upadate_menu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:src="@drawable/menu"
+        app:layout_constraintTop_toBottomOf="@id/complaints"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/update_menu_text"
+        android:text="Update Menu"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/upadate_menu"
+        app:layout_constraintLeft_toLeftOf="@id/upadate_menu"
+        app:layout_constraintRight_toRightOf="@id/upadate_menu"
+        android:layout_marginTop="12dp"
+        />
+
+    <ImageButton
+        android:id="@+id/upload_notice"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:src="@drawable/notices"
+        app:layout_constraintTop_toBottomOf="@id/upadate_menu"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/upload_notice_text"
+        android:text="Update Menu"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/upload_notice"
+        app:layout_constraintLeft_toLeftOf="@id/upload_notice"
+        app:layout_constraintRight_toRightOf="@id/upload_notice"
+        android:layout_marginTop="12dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textDirector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="College Director: John Doe"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDirectorPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onPhoneNumberClick"
+                android:paddingBottom="8dp"
+                android:text="Phone: +1234567890"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textDirectorEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onEmailClick"
+                android:paddingBottom="16dp"
+                android:text="Email: john.doe@example.com"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnDirectorAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionButtonClick"
+                android:text="Action" />
+
+
+            <TextView
+                android:id="@+id/textChief"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="College Director: John Doe"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textChiefPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onPhoneNumberClick"
+                android:paddingBottom="8dp"
+                android:text="Phone: +1234567890"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textChiefEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onEmailClick"
+                android:paddingBottom="16dp"
+                android:text="Email: john.doe@example.com"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnChiefAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionButtonClick"
+                android:text="Action" />
+
+
+            <TextView
+                android:id="@+id/textWarden1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="College Director: John Doe"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textWarden1Phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onPhoneNumberClick"
+                android:paddingBottom="8dp"
+                android:text="Phone: +1234567890"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textWarden1Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onEmailClick"
+                android:paddingBottom="16dp"
+                android:text="Email: john.doe@example.com"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnWarden1Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionButtonClick"
+                android:text="Action" />
+
+
+            <TextView
+                android:id="@+id/textWarden2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="College Director: John Doe"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textWarden2Phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onPhoneNumberClick"
+                android:paddingBottom="8dp"
+                android:text="Phone: +1234567890"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textWarden2Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onEmailClick"
+                android:paddingBottom="16dp"
+                android:text="Email: john.doe@example.com"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnWarden2Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionButtonClick"
+                android:text="Action" />
+
+
+            <TextView
+                android:id="@+id/textWarden3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="College Director: John Doe"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textWarden3Phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onPhoneNumberClick"
+                android:paddingBottom="8dp"
+                android:text="Phone: +1234567890"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textWarden3Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onEmailClick"
+                android:paddingBottom="16dp"
+                android:text="Email: john.doe@example.com"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnWarden3Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionButtonClick"
+                android:text="Action" />
+
+
+            <TextView
+                android:id="@+id/textAsst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="College Director: John Doe"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textAsstPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onPhoneNumberClick"
+                android:paddingBottom="8dp"
+                android:text="Phone: +1234567890"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textAsstEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onEmailClick"
+                android:paddingBottom="16dp"
+                android:text="Email: john.doe@example.com"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnAsstAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onActionButtonClick"
+                android:text="Action" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

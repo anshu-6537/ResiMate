@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "100708069683",
+    "project_id": "resimate-b66ee",
+    "storage_bucket": "resimate-b66ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100708069683:android:dfa507eaa13134249dce46",
+        "android_client_info": {
+          "package_name": "com.example.resimate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY_TqgC1OgNni0C1s8mEHDp6WPETQRDBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
